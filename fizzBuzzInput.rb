@@ -18,4 +18,3 @@ end
 
 f = Fizzbuzz.new
 f.calculate(15)
-
