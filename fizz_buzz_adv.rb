@@ -21,9 +21,7 @@ class FizzBuzzSivv
 end
 
 fbs = FizzBuzzSivv.new
-puts "Your translation specs are: #{WORDS_HASH}"
-puts "Your range is: #{INPUT_RANGE.min} to #{INPUT_RANGE.max}"
 
-INPUT_RANGE.each do |number|
-  puts fbs.evaluate(number)
+INPUT_RANGE.each do |n|
+  puts fbs.evaluate(n)
 end
